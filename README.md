@@ -10,24 +10,31 @@ It builds on two earlier projects. In [indego-bike-share-analysis](https://githu
 
 <!-- daily:start -->
 
-### Today's forecast (Sun Nov 15, 2026)
+### Today's forecast (Mon Nov 16, 2026)
 
 Stations that had e-bikes at 4 a.m. but are most likely to **run out of e-bikes** during the morning rush (7–10 a.m.):
 
 | Station | Chance of no e-bike | Hours above 50% |
 |---|---:|---|
-| Queen Lane Station | 72% | 7a, 8a, 9a |
-| 27th & South | 58% | 8a, 9a |
-| Broad & Oxford | 56% | 9a |
-| 6th & Brown | 55% | 9a |
-| York & Aramingo | 55% | 9a |
-| 33rd & Reservoir | 55% | 8a, 9a |
-| 41st & Chestnut | 52% | 9a |
-| American & Berks | 51% | 8a, 9a |
+| 15th & South | 52% | 9a |
+| Broad & Allegheny | 50% | – |
+| Broad & Cherry | 49% | – |
+| Broad & Girard | 48% | – |
+| Broad & Chestnut | 44% | – |
+| Broad & Oxford | 43% | – |
+| Grays Ferry & Pemberton | 42% | – |
+| Queen Lane Station | 39% | – |
 
-Full forecast: [`forecasts/2026-11-15.csv`](forecasts/2026-11-15.csv)
+Full forecast: [`forecasts/2026-11-16.csv`](forecasts/2026-11-16.csv)
 
-The first forecasts get scored the morning after they're made; the track record shows up here once they are.
+### Live track record (1 day scored so far)
+
+![Live track record](figures/daily_scores.png)
+
+| Last 7 days | Top-25 hit rate | Same, stations with bikes at 4 a.m. | AUC |
+|---|---:|---:|---:|
+| No bikes | 100% | 32% | 0.91 |
+| No e-bikes | 100% | 72% | 0.91 |
 
 <!-- daily:end -->
 
