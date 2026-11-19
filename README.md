@@ -10,31 +10,31 @@ It builds on two earlier projects. In [indego-bike-share-analysis](https://githu
 
 <!-- daily:start -->
 
-### Today's forecast (Wed Nov 18, 2026)
+### Today's forecast (Thu Nov 19, 2026)
 
 Stations that had e-bikes at 4 a.m. but are most likely to **run out of e-bikes** during the morning rush (7–10 a.m.):
 
 | Station | Chance of no e-bike | Hours above 50% |
 |---|---:|---|
-| Saunders & Pearl | 58% | 9a |
-| 22nd & Hamilton | 57% | 9a |
-| 19th & Girard, PTTI | 54% | 9a |
-| 6th & Brown | 49% | – |
-| 33rd & Dauphin | 49% | – |
-| Broad & Christian East | 44% | – |
-| 45th & Baltimore | 44% | – |
-| Spring Garden Station, MFL | 44% | – |
+| 48th & Spruce | 57% | 8a, 9a |
+| Frankford & Columbia, Palmer Park | 46% | – |
+| 20th & Berks | 44% | – |
+| 19th & Girard, PTTI | 42% | – |
+| 33rd & Reservoir | 41% | – |
+| Grays Ferry & Pemberton | 39% | – |
+| Powelton & Lancaster | 39% | – |
+| 5th & Spring Garden | 39% | – |
 
-Full forecast: [`forecasts/2026-11-18.csv`](forecasts/2026-11-18.csv)
+Full forecast: [`forecasts/2026-11-19.csv`](forecasts/2026-11-19.csv)
 
-### Live track record (3 days scored so far)
+### Live track record (4 days scored so far)
 
 ![Live track record](figures/daily_scores.png)
 
 | Last 7 days | Top-25 hit rate | Same, stations with bikes at 4 a.m. | AUC |
 |---|---:|---:|---:|
-| No bikes | 91% | 32% | 0.87 |
-| No e-bikes | 100% | 59% | 0.88 |
+| No bikes | 93% | 33% | 0.86 |
+| No e-bikes | 99% | 57% | 0.88 |
 
 <!-- daily:end -->
 
