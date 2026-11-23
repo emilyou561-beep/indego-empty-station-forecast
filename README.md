@@ -10,31 +10,31 @@ It builds on two earlier projects. In [indego-bike-share-analysis](https://githu
 
 <!-- daily:start -->
 
-### Today's forecast (Sun Nov 22, 2026)
+### Today's forecast (Mon Nov 23, 2026)
 
 Stations that had e-bikes at 4 a.m. but are most likely to **run out of e-bikes** during the morning rush (7–10 a.m.):
 
 | Station | Chance of no e-bike | Hours above 50% |
 |---|---:|---|
-| Oxford & Glenwood | 47% | – |
-| 19th & Girard, PTTI | 47% | – |
-| 13th & Spruce | 44% | – |
-| Spring Garden Station, MFL | 43% | – |
-| 8th & Chestnut | 43% | – |
-| 52nd & Chestnut | 42% | – |
-| Midvale & Cresson | 42% | – |
-| Kelly Drive, Strawberry Mansion Bridge | 41% | – |
+| Broad & Snyder | 76% | 8a, 9a |
+| 11th & Poplar, John F. Street Community Center | 72% | 8a, 9a |
+| York-Dauphin Station, MFL | 67% | 8a, 9a |
+| 53rd & Baltimore | 66% | 7a, 8a, 9a |
+| 2nd & Race | 65% | 9a |
+| Powelton & Lancaster | 63% | 8a, 9a |
+| 19th & Girard, PTTI | 63% | 9a |
+| Fitzwater & Juniper | 61% | 7a, 9a |
 
-Full forecast: [`forecasts/2026-11-22.csv`](forecasts/2026-11-22.csv)
+Full forecast: [`forecasts/2026-11-23.csv`](forecasts/2026-11-23.csv)
 
-### Live track record (7 days scored so far)
+### Live track record (8 days scored so far)
 
 ![Live track record](figures/daily_scores.png)
 
 | Last 7 days | Top-25 hit rate | Same, stations with bikes at 4 a.m. | AUC |
 |---|---:|---:|---:|
-| No bikes | 95% | 35% | 0.87 |
-| No e-bikes | 99% | 49% | 0.87 |
+| No bikes | 94% | 34% | 0.85 |
+| No e-bikes | 99% | 44% | 0.85 |
 
 <!-- daily:end -->
 
