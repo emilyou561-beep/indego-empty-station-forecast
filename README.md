@@ -10,31 +10,31 @@ It builds on two earlier projects. In [indego-bike-share-analysis](https://githu
 
 <!-- daily:start -->
 
-### Today's forecast (Fri Nov 27, 2026)
+### Today's forecast (Sat Nov 28, 2026)
 
 Stations that had e-bikes at 4 a.m. but are most likely to **run out of e-bikes** during the morning rush (7–10 a.m.):
 
 | Station | Chance of no e-bike | Hours above 50% |
 |---|---:|---|
-| 41st & Market | 37% | – |
-| Broad & Chestnut | 26% | – |
-| 32nd & Allegheny | 23% | – |
-| 8th & Spruce | 21% | – |
-| 12th & Walnut | 19% | – |
-| Broad & Christian East | 19% | – |
-| 20th & Berks | 18% | – |
-| 41st & Chestnut | 17% | – |
+| Broad & Cherry | 34% | – |
+| 48th & Spruce | 34% | – |
+| 19th & Market | 33% | – |
+| 12th & Filbert | 32% | – |
+| 4th & Arch | 30% | – |
+| Broad & Master | 29% | – |
+| 17th & Locust | 29% | – |
+| 4th & Walnut, NPS | 29% | – |
 
-Full forecast: [`forecasts/2026-11-27.csv`](forecasts/2026-11-27.csv)
+Full forecast: [`forecasts/2026-11-28.csv`](forecasts/2026-11-28.csv)
 
-### Live track record (12 days scored so far)
+### Live track record (13 days scored so far)
 
 ![Live track record](figures/daily_scores.png)
 
 | Last 7 days | Top-25 hit rate | Same, stations with bikes at 4 a.m. | AUC |
 |---|---:|---:|---:|
-| No bikes | 97% | 31% | 0.88 |
-| No e-bikes | 100% | 31% | 0.87 |
+| No bikes | 97% | 30% | 0.88 |
+| No e-bikes | 100% | 30% | 0.88 |
 
 <!-- daily:end -->
 
